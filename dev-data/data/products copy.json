@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Redmi Note 9 Pro (Aurora Blue, 4GB RAM, 128GB Storage)",
+        "description": "Latest 8nm Snapdragon 720G & Alexa Hands-Free | Upto 6 Months No Cost EMI | Extra Upto INR 1000 Off on Exchange",
+        "price": "14999",
+        "color": "Aurora Blue",
+        "warranty": 1,
+        "available": true,
+        "images": ["product-1-1.jpg", "product-1-2.jpg", "product-1-3.jpg", "product-1-4.jpg"],
+        "specification": ["Country Of Origin - India, China", "48MP quad rear camera with ultra-wide, super macro, portrait, night mode, 960fps slowmotion, AI scene recognition, pro color, HDR, pro mode | 16MP front facing camera", "16.9418 centimeters (6.67-inch) FHD+ LCD full screen dot display multi-touch capacitive touchscreen with 2400 x 1080 pixels resolution, 400 ppi pixel density and 20:9 aspect ratio | 2.5D curved glass", "Memory, Storage & SIM: 4GB RAM | 128GB internal memory expandable up to 512GB with dedicated SD card slot | Dual SIM (nano+nano) dual standby (4G+4G)", "Android v10 operating system with 2.3GHz Qualcomm Snapdragon 720G with 8nm octa core processor", "5020mAH lithium-polymer large battery providing talk-time of 29 hours and standby time of 492 hours | 18W fast charger in-box and Type-C connectivity", "1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase", "Box also includes: Power adapter, USB cable, SIM eject tool, warranty card, user guide, clear soft case, screen protector pre-applied on the phone", "Redmi note 9 Pro with Alexa Built-in provides hands-free access to Alexa while on-the-go. Say “Alexa” to play music, make calls, ask questions, control smart devices and more using just your voice. Download the Alexa app on your Redmi note 9 Pro to start using Alexa hands-free today."],
+        "subRefId": "ref1"
+    },
+    {
+        "name": "Vivo V20 Pro 5G (Midnight Jazz, 8GB RAM, 128GB Storage)",
+        "description": "64MP+8MP+2MP rear camera with motion autofocus, eye autofocus, body/object autofocus, super night mode, super wide angle night mode, tripod night mode, ultra stable video, art portrait video, super macro, bokeh portrait, multi-style portrait, ar stickers, 3d sound tracking | 44MP+8MP selfie camera",
+        "price": "29990",
+        "color": "Midnight Jazz",
+        "warranty": 1,
+        "available": true,
+        "images": ["product-2-1.jpg", "product-2-2.jpg", "product-2-3.jpg", "product-2-4.jpg", "product-2-5.jpg"],
+        "specification": ["64MP+8MP+2MP rear camera with motion autofocus, eye autofocus, body/object autofocus, super night mode, super wide angle night mode, tripod night mode, ultra stable video, art portrait video, super macro, bokeh portrait, multi-style portrait, ar stickers, 3d sound tracking | 44MP+8MP selfie camera", "16.35 centimeters (6.44 inch) FHD+ multi-touch capacitive touchscreen with 2400 x 1080 pixels resolution", "Memory, Storage & SIM: 8GB RAM | 128GB internal memory expandable | Dual SIM (nano+nano) dual-standby (5G+4G)", "Funtouch OS 11 based on Android 10 operating system ( Android 11 will be available through OTA Update) with Qualcomm Snapdragon 765G 5G octa core processor", "4000mAH lithium-ion battery", "1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase", "Box also includes: Earphones, documentation, microusb to USB cable, USB power adaptor, sim ejector, protective case, protective film (applied)"],
+        "subRefId": "ref2"
+    },
+    {
+        "name": "Samsung Galaxy M51 (Electric Blue, 6GB RAM, 128GB Storage)",
+        "description": "Quad camera setup - 64MP (F1.8) main camera + 12MP (F2.2) ultra wide camera + 5MP (F2.4) depth camera + 5MP (F2.4) macro camera and 32MP (F2.2) front camera",
+        "price": "22999",
+        "color": "Electric Blue",
+        "warranty": 1,
+        "available": true,
+        "images": ["product-3-1.jpg", "product-3-2.jpg", "product-3-3.jpg", "product-3-4.jpg"],
+        "specification": ["Quad camera setup - 64MP (F1.8) main camera + 12MP (F2.2) ultra wide camera + 5MP (F2.4) depth camera + 5MP (F2.4) macro camera and 32MP (F2.2) front camera", "16.95 cm (6.7-inch) sAMOLED Plus - Infinity-O display, FHD+ capacitive touchscreen with 1080 x 2400 pixels resolution, Contrast Ratio: 78960:1", "Memory, Storage & SIM: 6GB RAM, 128GB internal memory expandable up to 512GB | Dedicated Memory slot", "Android v10.0 operating system with 2.2GHz+1.8GHz Qualcomm | SD730G octa core processor", "7000mAH lithium-ion battery | 25W USB Type-C to C fast charger in the box", "Fast face unlock and Side Fingerprint sensor | Dual SIM (nano+nano) with dual standby and dual VoLTE | 3.5 mm headphone jack", "1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase", "Box also includes: Travel adapter, USB Type-C to C, ejection pin and user manual"],
+        "subRefId": "ref3"
+    },
+    {
+        "name": "OnePlus 7T Glacier Blue (8GB RAM+256GB Storage)",
+        "description": "Memory, Storage & SIM: 8GB RAM | 256GB internal memory | Dual SIM (nano+nano) dual-standby (4G+4G)",
+        "price": "37999",
+        "color": "Glacier Blue",
+        "warranty": 1,
+        "available": true,
+        "images": ["product-4-1.jpg", "product-4-2.jpg", "product-4-3.jpg", "product-4-4.jpg", "product-4-5.jpg"],
+        "specification": ["48+12+16MP triple rear camera with telephoto lens + ultrawide angle lens | 16MP front camera with 4K video capture @ 30/60 FPS, ultrashot, nightscape, portrait, pro mode, panorama, HDR, AI scene detection, RAW image", "16.63 centimeters (6.55 inch) 90Hz fluid AMOLED with 2400 x 1080 pixels resolution and 402 ppi pixel density", "Memory, Storage & SIM: 8GB RAM | 256GB internal memory | Dual SIM (nano+nano) dual-standby (4G+4G)", "Oxygen OS based on Android v10 operating system with 2.96GHz Qualcomm Snapdragon 855 Plus AI Engine octa-core, 7nm processor, Adreno 640", "3800mAH lithium-ion battery", "1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase"],
+        "subRefId": "ref4"
+    },
+    {
+        "name": "Vivo S1 Pro (Mystic Black, 8GB RAM, 128GB Storage)",
+        "description": "48MP+8MP+2MP+2MP AI Quad Rear Camera and 32MP front facing camera",
+        "price": "18990",
+        "color": "Mystic Black",
+        "warranty": 1,
+        "available": true,
+        "images": ["product-5-1.jpg", "product-5-2.jpg", "product-5-3.jpg"],
+        "specification": ["48MP+8MP+2MP+2MP AI Quad Rear Camera and 32MP front facing camera", "16.20 centimeters (6.38-inch) FHD+ Super AMOLED Display with 1080 × 2340 pixels resolution", "Memory, Storage & SIM: 8GB RAM | 128GB internal memory expandable up to 256GB | Dual SIM (nano+nano) dual-standby (4G+4G)", "Funtouch OS 9.2 (Based on Android 9.0) operating system with 2.0GHz Qualcomm Snapdragon 665 octa core processor", "4500mAH lithium-ion battery with Type-C 18W Dual-Engine Fast Charging technology", "1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase", "Box also includes: Earphones, USB cable, USB power adapter, sim ejector, protective case, protective film (applied), documentation"],
+        "subRefId": "ref5"
+    },
+    {
+        "name": "Oppo F17 (Navy Blue, 8GB RAM, 128GB Storage)",
+        "description": "16MP main camera + 8MP wide angle camera + 2MP mono camera + 2MP mono rear camera with photo, video, panorama, portrait, night scenes, time-lapse photography, beauty selfies, etc. | 16MP front camera",
+        "price": "18490",
+        "color": "Navy Blue",
+        "warranty": 1,
+        "available": true,
+        "images": ["product-6-1.jpg", "product-6-2.jpg", "product-6-3.jpg", "product-6-4.jpg", "product-6-5.jpg"],
+        "specification": ["16MP main camera + 8MP wide angle camera + 2MP mono camera + 2MP mono rear camera with photo, video, panorama, portrait, night scenes, time-lapse photography, beauty selfies, etc. | 16MP front camera", "16.36 centimeters (6.44 inch) with 2400 x 1080 pixels resolution, 408 ppi pixel density and 16.7M color support", "Memory, Storage & SIM: 8GB RAM | 128GB internal memory 3-card slot can support up to 256GB | Dual SIM (nano+nano) dual-standby (4G+4G)", "Android v10 based Color OS 7.2 operating system with up to 2.0Ghz Qualcomm Snapdragon SD662 octa core processor, Adreno GPU 610", "4015mAH massive lithium-polymer battery with 30W VOOC flash charge 4.0", "1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase", "Box also incldes: Adapter, data cable, sim card ejector tool, earphones, quick start guide and warranty card"],
+        "subRefId": "ref6"
+    },
+    {
+        "name": "OPPO F17 Pro (Matte Black, 8GB RAM, 128GB Storage)",
+        "description": "No Cost EMI/Additional Exchange Offers",
+        "price": "21490",
+        "color": "Matte Black",
+        "warranty": 1,
+        "available": true,
+        "images": ["product-7-1.jpg", "product-7-2.jpg", "product-7-3.jpg"],
+        "specification": ["48MP + 8MP + 2MP + 2MP Quad camera with photo, video, panorama, portrait, night scenes, time-lapse photography, beauty selfies, etc. | 16MP main + 2MP depth Front Camera", "16.34 centimeters (6.43 inch) dual punch-hole display with brilliant FHD+ view with 2400 x 1080 pixels resolution, 409 ppi pixel density and 16.7M color support | In-display fingerprint 3.0", "Memory, Storage & SIM: 8GB RAM | 128GB internal memory 3-card slot can be expandable up to 256GB | Dual SIM (nano+nano) dual-standby (4G+4G)", "Android v10 based ColorOS 7.2 operating system with 2.2GHz MediaTek Helio P95 octa core processor, IMG 9XM-HP8 GPU", "4015mAH lithium-polymer massive battery with 30W VOOC Flash Charge 4.0 | 5 min charge, 4 hours of talktime", "1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase", "Box also includes: Adapter, data cable, sim card ejector tool, earphones, quick start guide and warranty card"],
+        "subRefId": "ref7"
+    },
+    {
+        "name": "Samsung Galaxy A71 (Prism Crush Black, 8GB RAM, 128GB Storage)",
+        "description": "64MP (F1.8)+12MP (F2.2)+5MP (F2.2)+5MP (F2.4) camera | 32 front facing camera",
+        "price": "29499",
+        "color": "Prism Crush Black",
+        "warranty": 1,
+        "available": true,
+        "images": ["product-8-1.jpg", "product-8-2.jpg", "product-8-3.jpg", "product-8-4.jpg"],
+        "specification": ["64MP (F1.8)+12MP (F2.2)+5MP (F2.2)+5MP (F2.4) camera | 32 front facing camera", "17.04 centimeters (6.7-inch) super Amoled infinity-O display and FHD+ capacitive multi-touch touchscreen with 2400 x 1080 pixels resolution | 16M color support", "Memory, Storage & SIM: 8GB RAM | 128GB internal memory expandable up to 512GB | Dual SIM dual-standby (4G+4G)", "Android 10 operating system with 2.3GHz+1.7GHz Qualcomm | SM7150 octa core processor", "4500mAH lithium-ion battery", "1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase", "Box also Includes: Earphones, travel adapter, USB cable, ejection pin and user manual"],
+        "subRefId": "ref8"
+    },
+    {
+        "name": "New Apple iPhone 12 Pro Max (256GB)",
+        "description": "6.7-inch Super Retina XDR display",
+        "price": "134900",
+        "color": "Pacific Blue",
+        "warranty": 1,
+        "available": true,
+        "images": ["product-9-1.jpg"],
+        "specification": ["6.7-inch Super Retina XDR display", "Ceramic Shield, tougher than any smartphone glass", "A14 Bionic chip, the fastest chip ever in a smartphone", "Pro camera system with 12MP Ultra Wide, Wide and Telephoto cameras; 5x optical zoom range; Night mode, Deep Fusion, Smart HDR 3, Apple ProRAW, 4K Dolby Vision HDR recording", "LiDAR Scanner for improved AR experiences, Night mode portraits", "12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording", "Industry-leading IP68 water resistance"],
+        "subRefId": "ref9"
+    }
+]
