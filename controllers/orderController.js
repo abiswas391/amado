@@ -10,7 +10,7 @@ exports.getCheckoutSession = catchAsync(async (req, res, next) => {
   const image = product.images[0];
   console.log(product);
 
-  // 2) Create checkout session
+  // 2) Create checkout session //
   const session = await stripe.checkout.sessions.create({
     payment_method_types: ['card'],
     line_items: [
