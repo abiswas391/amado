@@ -1,2 +1,2 @@
 /*eslint-disable*/
-console.log('Hello from the index..');
+// console.log('Hello from the index..');

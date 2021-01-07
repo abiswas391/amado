@@ -20,7 +20,7 @@ const login = async (email, password) => {
         password
       }
     });
-    console.log(result.data);
+    // console.log(result.data);
 
     if (result.data.data.status === 'success') {
       console.log('logged in successfully');

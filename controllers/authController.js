@@ -82,7 +82,7 @@ exports.login = catchAsync(async (req, res, next) => {
       expiresIn: process.env.JWT_EXPIRES_IN
     });
 
-    if (token) console.log(token);
+    // if (token) console.log(token);
 
     const cookieOptions = {
       expires: new Date(
@@ -109,7 +109,7 @@ exports.login = catchAsync(async (req, res, next) => {
       }
     });
   } catch (err) {
-    console.log(err);
+    // console.log(err);
     return res.status(400).json({
       data: {
         err
@@ -139,7 +139,7 @@ exports.protect = catchAsync(async (req, res, next) => {
 
   // const decoded = await jwt.verify(token, process.env.JWT_SECRET);
   const decoded = await promisify(jwt.verify)(token, process.env.JWT_SECRET);
-  console.log(decoded);
+  // console.log(decoded);
 
   const currentUser = await User.findById(decoded.id);
 

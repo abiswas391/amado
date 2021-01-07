@@ -5,10 +5,10 @@ const stripe = Stripe(
 
 const orderProduct = async (productId) => {
   try {
-    console.log(productId);
+    // console.log(productId);
     // 1) Get the session from the server/API
     const session = await axios(`/api/v2/orders/checkout-session/${productId}`);
-    console.log(session);
+    // console.log(session);
 
     // 2) Create the checkout form + charge the credit card
     return stripe.redirectToCheckout({ sessionId: session.data.session.id });
@@ -21,7 +21,7 @@ const orderBtn = document.getElementById('order-product');
 
 if (orderBtn) {
   orderBtn.addEventListener('click', (e) => {
-    console.log('working');
+    // console.log('working');
     e.target.textContent = 'PROCESSING...';
     const { productid } = e.target.dataset;
     // console.log(productid);

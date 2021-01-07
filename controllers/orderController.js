@@ -5,10 +5,10 @@ const Order = require('../models/orderModel');
 const catchAsync = require('../utils/catchAsync');
 
 exports.getCheckoutSession = catchAsync(async (req, res, next) => {
-  console.log('getCheckoutSession is working');
+  // console.log('getCheckoutSession is working');
   const product = await Product.findById(req.params.productId);
   const image = product.images[0];
-  console.log(product);
+  // console.log(product);
 
   // 2) Create checkout session //
   const session = await stripe.checkout.sessions.create({
@@ -41,7 +41,7 @@ exports.getCheckoutSession = catchAsync(async (req, res, next) => {
   });
 
   // console.log(tour);
-  console.log(session);
+  // console.log(session);
 
   // 3) Create session as response
   res.status(200).json({

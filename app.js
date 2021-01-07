@@ -2,6 +2,7 @@ const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
+const compression = require('compression');
 
 const userRouter = require('./routes/userRouter');
 const tourRouter = require('./routes/tourRouter');
@@ -28,6 +29,8 @@ app.post(
 app.use(express.json({ limit: '10kb' }));
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: true, limit: '10kb' }));
+
+app.use(compression());
 
 app.use('/', viewRouter);
 app.use('/api/v2/users', userRouter);

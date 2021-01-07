@@ -26,11 +26,11 @@ exports.getAllTours = catchAsync(async (req, res, next) => {
   }
 
   if (req.query.fields) {
-    console.log(req.query);
-    console.log(req.query.fields);
-    console.log(
-      JSON.parse(JSON.stringify(req.query.fields.split(',').join(' ')))
-    );
+    // console.log(req.query);
+    // console.log(req.query.fields);
+    // console.log(
+    //   JSON.parse(JSON.stringify(req.query.fields.split(',').join(' ')))
+    // );
     finalQuery = finalQuery.select(
       JSON.parse(JSON.stringify(req.query.fields.split(',').join(' ')))
     );
@@ -69,7 +69,7 @@ exports.getAllTours = catchAsync(async (req, res, next) => {
 
 exports.getTour = catchAsync(async (req, res, next) => {
   const user = await Tour.findById(req.params.id);
-  console.log(user);
+  // console.log(user);
 
   res.status(200).json({
     data: {

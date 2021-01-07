@@ -1,1 +1,1 @@
-{"version":3,"sources":["index.js"],"names":["console","log"],"mappings":"AAAA;AACAA,OAAO,CAACC,GAAR,CAAY,wBAAZ","file":"bundle.js","sourceRoot":"","sourcesContent":["/*eslint-disable*/\r\nconsole.log('Hello from the index..');\r\n"]}
+{"version":3,"sources":[],"names":[],"mappings":"","file":"bundle.js","sourceRoot":""}
