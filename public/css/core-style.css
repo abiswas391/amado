@@ -983,7 +983,8 @@ img {
   -ms-flex: 0 0 calc(95% - 320px);
   flex: 0 0 calc(95% - 320px);
   width: calc(95% - 320px);
-  max-width: calc(95% - 320px);
+  /* max-width: calc(95% - 320px); */
+  max-width: calc(80% - 250px);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .main-content-wrapper .single-product-area {

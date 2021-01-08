@@ -13,6 +13,10 @@ html(lang="en")
     // Core Style CSS
     link(rel="stylesheet" href="/css/core-style.css")
     link(rel="stylesheet" href="/style.css")
+
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js")
     script(src='https://js.stripe.com/v3/')
     script(src='https://unpkg.com/axios/dist/axios.min.js')
   body
@@ -92,7 +96,7 @@ html(lang="en")
             i.fa.fa-twitter(aria-hidden="true")
       // Header Area End
       // Product Details Area Start
-      .single-product-area.section-padding-100.clearfix
+      .single-product-area
         .container-fluid
           .row
             .col-12
@@ -115,21 +119,31 @@ html(lang="en")
                     //- li(data-target="#product_details_slider" data-slide-to="2" style="background-image: url(img/product-img/pro-big-3.jpg);")
                     //- li(data-target="#product_details_slider" data-slide-to="3" style="background-image: url(img/product-img/pro-big-4.jpg);")
                   .carousel-inner
-                    .carousel-item.active
-                      a.gallery_img(href=`/img/product-img/${product.images[0]}`)
-                        img.d-block.w-100(src=`/img/product-img/${product.images[0]}` alt=`${product.slug}`)
-                    .carousel-item
-                      a.gallery_img(href=`/img/product-img/${product.images[1]}`)
-                        img.d-block.w-100(src=`/img/product-img/${product.images[1]}` alt=`${product.slug}`)
-                    .carousel-item
-                      a.gallery_img(href=`img/product-img/${product.images[2]}`)
-                        img.d-block.w-100(src=`img/product-img/${product.images[2]}` alt=`${product.slug}`)
-                    .carousel-item
-                      a.gallery_img(href=`img/product-img/${product.images[3]}`)
-                        img.d-block.w-100(src=`img/product-img/${product.images[3]}` alt=`${product.slug}`)
-                    .carousel-item
-                      a.gallery_img(href=`img/product-img/${product.images[4]}`)
-                        img.d-block.w-100(src=`img/product-img/${product.images[4]}` alt=`${product.slug}`)
+                    //- .carousel-item.active
+                    //-       a.gallery_img(href=`/img/product-img/${product.images[0]}`)
+                    //-         img.d-block.w-100(src=`/img/product-img/${product.images[0]}` alt=`${product.slug}`)
+                    
+                    each image, i in product.images
+                      if i === 0
+                        .carousel-item.active
+                          a.gallery_img(href=`/img/product-img/${image}`)
+                            img.d-block.w-100(src=`/img/product-img/${image}` alt=`${product.slug}`)
+                      else
+                        .carousel-item
+                          a.gallery_img(href=`/img/product-img/${image}`)
+                            img.d-block.w-100(src=`/img/product-img/${image}` alt=`${product.slug}`)
+                    //- .carousel-item
+                    //-   a.gallery_img(href=`/img/product-img/${product.images[1]}`)
+                    //-     img.d-block.w-100(src=`/img/product-img/${product.images[1]}` alt=`${product.slug}`)
+                    //- .carousel-item
+                    //-   a.gallery_img(href=`/img/product-img/${product.images[2]}`)
+                    //-     img.d-block.w-100(src=`/img/product-img/${product.images[2]}` alt=`${product.slug}`)
+                    //- .carousel-item
+                    //-   a.gallery_img(href=`/img/product-img/${product.images[3]}`)
+                    //-     img.d-block.w-100(src=`/img/product-img/${product.images[3]}` alt=`${product.slug}`)
+                    //- .carousel-item
+                    //-   a.gallery_img(href=`/img/product-img/${product.images[4]}`)
+                    //-     img.d-block.w-100(src=`/img/product-img/${product.images[4]}` alt=`${product.slug}`)
             .col-12.col-lg-5
               .single_product_desc
                 // Product Meta Data
@@ -157,7 +171,8 @@ html(lang="en")
                   //-   | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quae eveniet culpa officia quidem mollitia impedit iste asperiores nisi reprehenderit consequatur, autem, nostrum pariatur enim?
                   p(style="color: #fbb710") Specification
                   each spec in speci
-                    p # #{spec}
+                   h10 #{spec}
+                   br
                 // Add to Cart Form
                 if userName
                   button.btn.amado-btn(data-productid=`${product.id}`  name="order-product" id="order-product") Order now
@@ -178,7 +193,7 @@ html(lang="en")
     // ##### Main Content Wrapper End #####
     // ##### Newsletter Area Start #####
     section.newsletter-area.section-padding-100-0
-      .container
+      .container-fluid
         .row.align-items-center
           // Newsletter Text
           .col-12.col-lg-6.col-xl-7

@@ -38,7 +38,8 @@ exports.getProductBySlug = catchAsync(async (req, res, next) => {
     title: 'Product Details',
     product,
     speci: product.specification,
-    userName
+    userName,
+    images: product.images
   });
 });
 
