@@ -110,14 +110,17 @@ html(lang="en")
                   //-   a(href="#") Chairs
                   li.breadcrumb-item.active(aria-current="page") #{product.name}
           .row
-            .col-12.col-lg-7
+            .col-12.col-lg-5
               .single_product_thumb
                 #product_details_slider.carousel.slide(data-ride="carousel")
                   ol.carousel-indicators
-                    li.active(data-target="#product_details_slider" data-slide-to="0" style="background-image: url('/img/product-img/#{product.images[0]}');")
-                    li(data-target="#product_details_slider" data-slide-to="1" style="background-image: url('/img/product-img/#{product.images[1]}');")
-                    //- li(data-target="#product_details_slider" data-slide-to="2" style="background-image: url(img/product-img/pro-big-3.jpg);")
-                    //- li(data-target="#product_details_slider" data-slide-to="3" style="background-image: url(img/product-img/pro-big-4.jpg);")
+                    each image, i in product.images
+                      if i === 0
+                        li.active(data-target="#product_details_slider" data-slide-to=`${i}` style=`background-image: url(/img/product-img/${image});`)
+                      else
+                        li(data-target="#product_details_slider" data-slide-to=`${i}` style=`background-image: url(/img/product-img/${image});`)
+                      //- li(data-target="#product_details_slider" data-slide-to="2" style="background-image: url(img/product-img/pro-big-3.jpg);")
+                      //- li(data-target="#product_details_slider" data-slide-to="3" style="background-image: url(img/product-img/pro-big-4.jpg);")
                   .carousel-inner
                     //- .carousel-item.active
                     //-       a.gallery_img(href=`/img/product-img/${product.images[0]}`)
@@ -144,6 +147,7 @@ html(lang="en")
                     //- .carousel-item
                     //-   a.gallery_img(href=`/img/product-img/${product.images[4]}`)
                     //-     img.d-block.w-100(src=`/img/product-img/${product.images[4]}` alt=`${product.slug}`)
+            .col-12.col-lg-2
             .col-12.col-lg-5
               .single_product_desc
                 // Product Meta Data
