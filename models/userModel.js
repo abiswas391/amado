@@ -55,19 +55,19 @@ const userSchema = new mongoose.Schema({
   }
 });
 
-// userSchema.pre('save', async function (next) {
-//   const hashedPassword = await bcrypt.hash(this.password, 12);
-//   this.password = hashedPassword;
-//   this.passwordConfirm = undefined;
-//   next();
-// });
+userSchema.pre('save', async function (next) {
+  const hashedPassword = await bcrypt.hash(this.password, 12);
+  this.password = hashedPassword;
+  this.passwordConfirm = undefined;
+  next();
+});
 
-// userSchema.pre('validate', function (next) {
-//   if (this.password !== this.passwordConfirm) {
-//     this.invalidate('passwordConfirmation', 'enter the same password');
-//   }
-//   next();
-// });
+userSchema.pre('validate', function (next) {
+  if (this.password !== this.passwordConfirm) {
+    this.invalidate('passwordConfirmation', 'enter the same password');
+  }
+  next();
+});
 
 const User = mongoose.model('User', userSchema);
 
