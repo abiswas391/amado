@@ -58,7 +58,7 @@ const createOrderCheckout = async (session) => {
 };
 
 exports.webhookCheckout = async (req, res) => {
-  const payload = request.body;
+  const payload = req.body;
   const signature = req.headers['stripe-signature'];
 
   let event;
