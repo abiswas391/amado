@@ -3,12 +3,18 @@ const mongoose = require('mongoose');
 const orderSchema = new mongoose.Schema({
   product: {
     type: mongoose.Schema.ObjectId,
-    ref: 'Product'
+    ref: 'Product',
+    required: true
   },
   user: {
     type: mongoose.Schema.ObjectId,
-    ref: 'User'
+    ref: 'User',
+    required: true
   },
+  price: {
+    type: Number,
+    required: true
+  }
   orderedAt: {
     type: Date,
     default: Date.now()
