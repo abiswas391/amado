@@ -8,6 +8,8 @@ html(lang="en")
         link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css")
         script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
         script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js")
+        // For cart icon
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
 
         // The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags
         // Title
@@ -23,21 +25,26 @@ html(lang="en")
         .main
             // Another variation with a button
             .row
-                .col-md-6(style="text-align: left")
+                .col-md-5(style="text-align: left")
                     .input-group
                         input.form-control(type="text" placeholder="Type your keyword here...")
                         .input-group-append
                             button.btn.btn-secondary(type="button")
                                 i.fa.fa-search
-                .col-md-4
-                    .login-panel
-                        if userName
-                            p.loggedIn-user Hi #{userName.split(' ')[0]}
-                        else
-                            button.btn.btn-warning.btn-lg#login-btn(name="login" style="margin-left: 50px") Login
+                .col-md-3
+                    if userName
+                        p.loggedIn-user Hi #{userName.split(' ')[0]}
+                    //- else
+                    //-     button.btn.btn-warning.btn-lg#login-btn(name="login" style="margin-left: 150px") Login
                 .col-md-2
                     if userName
-                        button.btn.btn-warning.btn-lg#logout-btn(name="login" style="margin-left: 350px") Logout
+                        button.btn.btn-warning.btn-lg#logout-btn(name="logout") Logout
+                    else
+                        button.btn.btn-warning.btn-lg#login-btn(name="login") Login
+                .col-md-2(style="text-align: right")
+                    a(href="#")
+                        i.fa(style="font-size:30px") 
+                        span#lblCartCount.badge.badge-warning  4
                         
             //- .login-greeting
             //-     p Hi Abhijit

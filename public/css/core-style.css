@@ -1955,9 +1955,16 @@ img {
 
 /* Styles for wrapping the search box */
 
-.main {
+/* .main {
   width: 40%;
   margin: -10px 30%;
+  padding-top: 20px;
+} */
+
+/* for the cart position */
+.main {
+  width: 65%;
+  margin: -10px 34%;
   padding-top: 20px;
 }
 
@@ -1981,4 +1988,26 @@ img {
 
 .loggedIn-user p {
   margin-left: 600px;
+}
+
+/* for the cart icon */
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+  background-color: #fbb70e;
+}
+#lblCartCount {
+  font-size: 14px;
+  background: #fbb70e;
+  color: #0f1111;
+  padding: 0 5px;
+  vertical-align: top;
+  margin-left: -10px;
 }

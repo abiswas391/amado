@@ -53,8 +53,18 @@ exports.getCheckoutSession = catchAsync(async (req, res, next) => {
 const createOrderCheckout = async (session) => {
   const product = session.client_reference_id;
   const user = (await User.findOne({ email: session.customer_email })).id;
-  const price = session.amount_total / 100;
-  await Order.create({ product, user, price });
+  const totalAmount = session.amount_total / 100;
+  const paymentId = session.id;
+  const paymentMethod = session.payment_method_types[0];
+  const paymentStatus = session.payment_status;
+  await Order.create({
+    product,
+    user,
+    totalAmount,
+    paymentId,
+    paymentMethod,
+    paymentStatus
+  });
 };
 
 exports.webhookCheckout = async (req, res) => {
